@@ -250,6 +250,7 @@ public class FirstF extends JFrame {
 
                     String emailTxt = emailId.getText();
                     if(!emailTxt.matches(EMAIL_PATTERN)) {
+
                         JOptionPane.showMessageDialog(new JFrame(),"Please enter a valid email address");
                     }
                     else {
