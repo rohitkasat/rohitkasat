@@ -186,6 +186,7 @@ public class First extends JFrame {
             LocalDateTime now = LocalDateTime.now();
             JDateChooser dc = new JDateChooser();
             dc.setDate(new Date());
+
             dc.setBounds(525,300,175,25);
             main_panel.add(dc);
 
