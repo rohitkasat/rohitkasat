@@ -247,7 +247,6 @@ public class FirstF extends JFrame {
 
                 @Override
                 public void actionPerformed(ActionEvent e) {
-
                     String emailTxt = emailId.getText();
                     if(!emailTxt.matches(EMAIL_PATTERN)) {
 
